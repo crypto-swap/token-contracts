@@ -13,7 +13,6 @@ let faucet: ethers.Contract;
 enum TokenType {
     ERC20 = 'ERC20TestToken',
     ERC20_WITH_PERMIT = 'ERC20TestTokenWithPermit',
-    ERC677 = 'ERC677TestToken'
 }
 
 async function deployERC20TestToken(faucetAddress: string, type: TokenType, name: string, symbol: string, decimals: number) {
