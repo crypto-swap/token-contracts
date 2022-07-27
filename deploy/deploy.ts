@@ -48,7 +48,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
 
     // Tokens to deploy.
     console.log('Faucet address', faucetAddress);
-    await deployERC20TestToken(faucetAddress, TokenType.ERC20, 'Swap', 'SWAP', 18);
+    await deployERC20TestToken(faucetAddress, TokenType.ERC20, 'testnet CryptoSwap', 'tCS', 18);
 
     console.log('All tasks finished.');
 }
