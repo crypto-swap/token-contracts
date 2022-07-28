@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+Token tCS has been successfully deployed to 0xfD2a81f7FC4fcc9dc26cB0641B190C1e0F37c43B
+(testnet CryptoSwap)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
